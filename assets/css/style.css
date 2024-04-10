@@ -4,8 +4,8 @@ body {
 
 .start_button {
     position: absolute;
-    top: 50%;
-    left: 38%;
+    top: 40%;
+    left: 36%;
 }
 
 /**Styling the button**/
@@ -21,4 +21,24 @@ body {
 .start_button button:hover {
     background: rgb(47, 83, 138);
     color: white;
+}
+
+.info_box {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.info_box .info_title {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 600;
 }
