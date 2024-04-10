@@ -25,12 +25,13 @@ body {
 
 .info_box {
     position: absolute;
-    top: 30%;
+    top: 27%;
     left: 35%;
     text-align: center;
     background-color: white;
     width: 500px;
     border-radius: 10px;
+    padding: 5px;
 }
 
 .info_box .info_title {
@@ -40,5 +41,33 @@ body {
     align-items: center;
     padding: 30px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 60%;
+}
+
+.info_box .info_list .info {
+    margin: 5px;
+    font-size: 20px;
+}
+
+.info_box .buttons {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border-top: 1px solid rgb(91, 148, 233); 
+}
+
+.info_box .buttons button {
+    background-color: rgb(91, 148, 233);
+    color: white;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    border: 0cap;
+    padding: 5px 10px;
+}
+
+.info_box .buttons button:hover {
+    background-color:rgb(47, 83, 138); 
 }
